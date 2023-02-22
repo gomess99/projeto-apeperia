@@ -1,0 +1,24 @@
+Unidades de Medida: 
+
+    ° Quando montamos páginas que se adaptam a diversos dispositivos, é importante usar unidades de medidas que se adaptam automaticamente para diversos tamanhos e espaços, mas às vezes é interessante usar unidades que sejam relativas à outras situações além dessas, como é o caso de REM e EM.
+
+    ° 'em - ephemeral' é uma fonte relativa ao font-size tendo sua proporção relativa a 16px. É comum ultilizarem 62.5% na font-size do html, assim 1em = 10px, portanto 16px = 1.6em
+
+    ° 'rem - Root ephemeral' também terá uma fonte relativa ao font-size, porém ele tem uma hierarquia maior, similar à tag html/raiz
+
+Declarando variável no CSS:
+
+    ° Para não ter que compiar uma valor contantemente ultilizado ou acabar esquecendo e ter que buscalo em alguma parte do código é possível criar variáveis unioversáis. Este é um caso do seletor 'root' que tem mais força que o html, nele armazenaremos todos os dados em variáveis com os nomes que desejamos e fica mais fácil de manuzear o código, dessa forma por exemplo: 
+
+    :root{
+        --branco: #FFFFFF;
+        --preto: #000000;
+    }
+
+    Para chamar a variável tem que atribuí-la ao var(), dessa forma:
+
+    color: var(--branco);
+
+Viewport
+
+    ° A tela toda é o que chamamos de “viewport”, então podemos usar uma outra unidade de medida que utiliza o “viewport” como uma referência. Como nós queremos toda a largura da tela, podemos utilizar uma unidade de medida de chamada “vw” - “vw” quer dizer “viewport width”. Assim colocando '100vw' ele ocupará 100% da área visível pelo usuário, isso também é válido para o height ficando '100vh'

@@ -1,11 +1,5 @@
-/*Unidades de Medida:
-
-° 'em' é uma fonte relativa ao font-size tendo sua proporção relativa a 16px. É comum ultilizarem 62.5% na font-size do html, assim 1em = 10px, portanto 16px = 1.6em
-
-° 'rem' também terá uma fonte relativa ao font-size, porém ele tem uma hierarquia maior, similar à tag html/raiz*/
-
 .cabecalho {
-    color: #FFF;
+    color: var(--branco);
 
     width: 100%;
 
@@ -18,7 +12,7 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
 
-    border-bottom: 1px solid #103D4A;
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
 
     position: absolute;
 }

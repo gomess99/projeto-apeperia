@@ -1,0 +1,13 @@
+Um novo estilo de contrução do cod:
+
+    ° O EMMET é uma forma facilitada de contrução do código é possível inserir nessa ordem e será criando da mesma forma o caabeçalho abaixo: header>img+nav>ul>li*6>a
+
+Tipos de imagens:
+
+    ° O PNG é um formato de imagem pouco compacto, então ele consegue manter bastante da qualidade da imagem. Em compensação, como ele é um formato menos compacto o seu tamanho é bem elevado
+
+    ° JPG, JPGS são bem mais compactos que os PNGs, por conta disso a qualidade de imagem não é tão boa quanto a de um PNG. Além disso, ele não consegue utilizar certos efeitos como por exemplo: transparência. O tamanho do JPG é muito menor do que o de um PNG
+
+    ° “GIFS”. O tamanho de um GIF pode variar bastante dependendo do comprimento da animação e também da resolução do GIF, só que GIFs possuem uma qualidade de imagem extremamente baixa, então o seu uso costuma ser bem limitado
+
+    ° Os SVGs são imagens criadas através de instruções de computador, então o computador recebe uma instrução e monta o desenho na tela. Esse desenho é formado por cálculos, então independente do tamanho da imagem ou independente do tamanho da tela, o computador sempre faz essa mesma conta para poder gerar a imagem. SVG costuma ser muito mais leve do que um PNG. SVG não é uma imagem perfeita. É recomendado para imagens simples (sem muito detalhes), logos e ícones
