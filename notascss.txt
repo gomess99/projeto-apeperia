@@ -19,6 +19,10 @@ Declarando variável no CSS:
 
     color: var(--branco);
 
-Viewport
+Viewport:
 
     ° A tela toda é o que chamamos de “viewport”, então podemos usar uma outra unidade de medida que utiliza o “viewport” como uma referência. Como nós queremos toda a largura da tela, podemos utilizar uma unidade de medida de chamada “vw” - “vw” quer dizer “viewport width”. Assim colocando '100vw' ele ocupará 100% da área visível pelo usuário, isso também é válido para o height ficando '100vh'
+
+Media Queries:
+
+    Para criar uma condição no CSS é preciso usar o '@media querie' e a condição entre parenteses, é uma boa opção para condicionar as opções de mobile e tablet
